@@ -367,7 +367,7 @@ export interface ICommonTelemetryPropertiesResolver {
 }
 
 export interface IExternalUriResolver {
-	(uri: URI): Promise<URI>;
+	(uri: URI): Promise<URI | URL>;
 }
 
 export interface IExternalURLOpener {
