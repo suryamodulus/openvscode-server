@@ -79,8 +79,7 @@ export class TelemetryService extends Disposable implements ITelemetryService {
 			const telemetryProvider: ITelemetryAppender = remoteAgentService.getConnection() !== null ? { log: remoteAgentService.logTelemetry.bind(remoteAgentService), flush: remoteAgentService.flushTelemetry.bind(remoteAgentService) } : new OneDataSystemWebAppender(isInternal, 'monacoworkbench', null, productService.aiConfig?.ariaKey);
 			appenders.push(telemetryProvider);
 			appenders.push(new TelemetryLogAppender(logService, loggerService, environmentService, productService));
-			const gitpodTelemetryProvider: ITelemetryAppender = new GitpodInsightsAppender(productService);
-			appenders.push(gitpodTelemetryProvider);
+			appenders.push(new GitpodInsightsAppender(productService));
 			const config: ITelemetryServiceConfig = {
 				appenders,
 				commonProperties: resolveWorkbenchCommonProperties(storageService, productService.commit, productService.version, isInternal, environmentService.remoteAuthority, productService.embedderIdentifier, productService.removeTelemetryMachineId, environmentService.options && environmentService.options.resolveCommonTelemetryProperties),

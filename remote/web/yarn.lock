@@ -2,27 +2,27 @@
 # yarn lockfile v1
 
 
-"@gitpod/ide-metrics-api-grpcweb@^0.0.1-main.4783":
-  version "0.0.1-main.4783"
-  resolved "https://registry.yarnpkg.com/@gitpod/ide-metrics-api-grpcweb/-/ide-metrics-api-grpcweb-0.0.1-main.4783.tgz#d618c0d37713b66eec3a58ae9fc76c91ace222c9"
-  integrity sha512-QxQT/chiDd7qRFUWNhsTHPBi6dgX9n1nuqHpUmqaiXq8KSWHGss4XY2jUfY+V64zmIQmKp/B/M+1H7VWIOQcUg==
+"@gitpod/ide-metrics-api-grpcweb@main-gha":
+  version "0.0.1-main-gha.9974"
+  resolved "https://registry.yarnpkg.com/@gitpod/ide-metrics-api-grpcweb/-/ide-metrics-api-grpcweb-0.0.1-main-gha.9974.tgz#ac1b6d705633c502310416ba4a3f5a57890d3338"
+  integrity sha512-g9iy844aRFWuDuw3hJIjQcxBPkGRl2L33H+CZBisrhXUMNOpwj+Ixt9GM3aUas9utf4PTb662KXS1/ZhIEZhMA==
   dependencies:
     "@improbable-eng/grpc-web" "^0.14.0"
     google-protobuf "^3.19.1"
 
-"@gitpod/local-app-api-grpcweb@main":
-  version "0.1.5-main.6346"
-  resolved "https://registry.yarnpkg.com/@gitpod/local-app-api-grpcweb/-/local-app-api-grpcweb-0.1.5-main.6346.tgz#e466974b2a011ecd80faf2b36d5d4c552c3919f1"
-  integrity sha512-OzSkNeHF0Lq0Tx15YD3z8L+9Xe3Nt+UI/nGITIz7s4/LVXjHv4CxR8toiB4b5wtkAPFkMg/LkfuXoKQU40VPjg==
+"@gitpod/local-app-api-grpcweb@main-gha":
+  version "0.1.5-main-gha.9974"
+  resolved "https://registry.yarnpkg.com/@gitpod/local-app-api-grpcweb/-/local-app-api-grpcweb-0.1.5-main-gha.9974.tgz#cf484ece57ad80454c228da42a89f076c3530aa3"
+  integrity sha512-coWAaEvISRUmlUlWkMCNjq5xkMNL34UisT+yZsH+gY0DN5zDXWZSsKT5CHd6+FJzGQy0Z05q2OVeVdi4EgD3Rg==
   dependencies:
-    "@gitpod/supervisor-api-grpcweb" "0.1.5-main.6346"
+    "@gitpod/supervisor-api-grpcweb" "0.1.5-main-gha.9974"
     "@improbable-eng/grpc-web" "0.14.0"
     google-protobuf "^3.19.1"
 
-"@gitpod/supervisor-api-grpcweb@0.1.5-main.6346":
-  version "0.1.5-main.6346"
-  resolved "https://registry.yarnpkg.com/@gitpod/supervisor-api-grpcweb/-/supervisor-api-grpcweb-0.1.5-main.6346.tgz#221ca525005335d38b18d978dba3f65fc7e1f887"
-  integrity sha512-d7MAWfe1EkPcbcGWS39yAgyRbL+nutunGewuUeETc/0mkqm0BGLb5dIkORni4Cs2dUhR3wd1U7RWJ+sFCRC3iw==
+"@gitpod/supervisor-api-grpcweb@0.1.5-main-gha.9974":
+  version "0.1.5-main-gha.9974"
+  resolved "https://registry.yarnpkg.com/@gitpod/supervisor-api-grpcweb/-/supervisor-api-grpcweb-0.1.5-main-gha.9974.tgz#7464738ee230b825de3c3ccff60a3b08b58b7c18"
+  integrity sha512-EnFSHQOXntGcZrB8kDprZxwr9UbRVIM22mr5L4KRXj2p0EiKcVpSvYy4piBaL2UxrW6iX0Amp1hj8YrPgyD5MQ==
   dependencies:
     "@improbable-eng/grpc-web" "^0.14.0"
 

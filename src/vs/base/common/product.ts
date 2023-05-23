@@ -130,6 +130,7 @@ export interface IProductConfiguration {
 	readonly openToWelcomeMainPage?: boolean;
 	readonly aiConfig?: {
 		readonly ariaKey: string;
+		readonly segmentKey: string;
 	};
 
 	readonly sendASmile?: {
